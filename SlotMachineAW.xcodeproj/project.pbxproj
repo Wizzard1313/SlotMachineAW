@@ -14,6 +14,13 @@
 		1DE0CE9A1ADA663000BE8399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CE991ADA663000BE8399 /* Images.xcassets */; };
 		1DE0CE9D1ADA663000BE8399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CE9B1ADA663000BE8399 /* LaunchScreen.xib */; };
 		1DE0CEA91ADA663000BE8399 /* SlotMachineAWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CEA81ADA663000BE8399 /* SlotMachineAWTests.swift */; };
+		1DE0CEBB1ADA669500BE8399 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CEBA1ADA669500BE8399 /* InterfaceController.swift */; };
+		1DE0CEBD1ADA669500BE8399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CEBC1ADA669500BE8399 /* Images.xcassets */; };
+		1DE0CEC11ADA669500BE8399 /* SlotMachineAW WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CEC01ADA669500BE8399 /* SlotMachineAW WatchKit App.app */; };
+		1DE0CEC91ADA669500BE8399 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CEC71ADA669500BE8399 /* Interface.storyboard */; };
+		1DE0CECB1ADA669500BE8399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CECA1ADA669500BE8399 /* Images.xcassets */; };
+		1DE0CECE1ADA669500BE8399 /* SlotMachineAW WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1DE0CEB61ADA669500BE8399 /* SlotMachineAW WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DE0CED61ADB0B3B00BE8399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CEBC1ADA669500BE8399 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +31,35 @@
 			remoteGlobalIDString = 1DE0CE891ADA663000BE8399;
 			remoteInfo = SlotMachineAW;
 		};
+		1DE0CEC21ADA669500BE8399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE0CE821ADA663000BE8399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE0CEBF1ADA669500BE8399;
+			remoteInfo = "SlotMachineAW WatchKit App";
+		};
+		1DE0CECC1ADA669500BE8399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE0CE821ADA663000BE8399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE0CEB51ADA669500BE8399;
+			remoteInfo = "SlotMachineAW WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DE0CED51ADA669500BE8399 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1DE0CECE1ADA669500BE8399 /* SlotMachineAW WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1DE0CE8A1ADA663000BE8399 /* SlotMachineAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachineAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +73,14 @@
 		1DE0CEA21ADA663000BE8399 /* SlotMachineAWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineAWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE0CEA71ADA663000BE8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE0CEA81ADA663000BE8399 /* SlotMachineAWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineAWTests.swift; sourceTree = "<group>"; };
+		1DE0CEB61ADA669500BE8399 /* SlotMachineAW WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SlotMachineAW WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE0CEB91ADA669500BE8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE0CEBA1ADA669500BE8399 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1DE0CEBC1ADA669500BE8399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DE0CEC01ADA669500BE8399 /* SlotMachineAW WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SlotMachineAW WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE0CEC61ADA669500BE8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE0CEC81ADA669500BE8399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1DE0CECA1ADA669500BE8399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DE0CEB31ADA669500BE8399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +113,8 @@
 			children = (
 				1DE0CE8C1ADA663000BE8399 /* SlotMachineAW */,
 				1DE0CEA51ADA663000BE8399 /* SlotMachineAWTests */,
+				1DE0CEB71ADA669500BE8399 /* SlotMachineAW WatchKit Extension */,
+				1DE0CEC41ADA669500BE8399 /* SlotMachineAW WatchKit App */,
 				1DE0CE8B1ADA663000BE8399 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +124,8 @@
 			children = (
 				1DE0CE8A1ADA663000BE8399 /* SlotMachineAW.app */,
 				1DE0CEA21ADA663000BE8399 /* SlotMachineAWTests.xctest */,
+				1DE0CEB61ADA669500BE8399 /* SlotMachineAW WatchKit Extension.appex */,
+				1DE0CEC01ADA669500BE8399 /* SlotMachineAW WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +169,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DE0CEB71ADA669500BE8399 /* SlotMachineAW WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1DE0CEBA1ADA669500BE8399 /* InterfaceController.swift */,
+				1DE0CEBC1ADA669500BE8399 /* Images.xcassets */,
+				1DE0CEB81ADA669500BE8399 /* Supporting Files */,
+			);
+			path = "SlotMachineAW WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1DE0CEB81ADA669500BE8399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE0CEB91ADA669500BE8399 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE0CEC41ADA669500BE8399 /* SlotMachineAW WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1DE0CEC71ADA669500BE8399 /* Interface.storyboard */,
+				1DE0CECA1ADA669500BE8399 /* Images.xcassets */,
+				1DE0CEC51ADA669500BE8399 /* Supporting Files */,
+			);
+			path = "SlotMachineAW WatchKit App";
+			sourceTree = "<group>";
+		};
+		1DE0CEC51ADA669500BE8399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE0CEC61ADA669500BE8399 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +215,12 @@
 				1DE0CE861ADA663000BE8399 /* Sources */,
 				1DE0CE871ADA663000BE8399 /* Frameworks */,
 				1DE0CE881ADA663000BE8399 /* Resources */,
+				1DE0CED51ADA669500BE8399 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1DE0CECD1ADA669500BE8399 /* PBXTargetDependency */,
 			);
 			name = SlotMachineAW;
 			productName = SlotMachineAW;
@@ -153,6 +245,39 @@
 			productReference = 1DE0CEA21ADA663000BE8399 /* SlotMachineAWTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1DE0CEB51ADA669500BE8399 /* SlotMachineAW WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE0CED21ADA669500BE8399 /* Build configuration list for PBXNativeTarget "SlotMachineAW WatchKit Extension" */;
+			buildPhases = (
+				1DE0CEB21ADA669500BE8399 /* Sources */,
+				1DE0CEB31ADA669500BE8399 /* Frameworks */,
+				1DE0CEB41ADA669500BE8399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE0CEC31ADA669500BE8399 /* PBXTargetDependency */,
+			);
+			name = "SlotMachineAW WatchKit Extension";
+			productName = "SlotMachineAW WatchKit Extension";
+			productReference = 1DE0CEB61ADA669500BE8399 /* SlotMachineAW WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1DE0CEBF1ADA669500BE8399 /* SlotMachineAW WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE0CECF1ADA669500BE8399 /* Build configuration list for PBXNativeTarget "SlotMachineAW WatchKit App" */;
+			buildPhases = (
+				1DE0CEBE1ADA669500BE8399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SlotMachineAW WatchKit App";
+			productName = "SlotMachineAW WatchKit App";
+			productReference = 1DE0CEC01ADA669500BE8399 /* SlotMachineAW WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +289,19 @@
 				TargetAttributes = {
 					1DE0CE891ADA663000BE8399 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2VETF57N57;
 					};
 					1DE0CEA11ADA663000BE8399 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 1DE0CE891ADA663000BE8399;
+					};
+					1DE0CEB51ADA669500BE8399 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2VETF57N57;
+					};
+					1DE0CEBF1ADA669500BE8399 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2VETF57N57;
 					};
 				};
 			};
@@ -186,6 +320,8 @@
 			targets = (
 				1DE0CE891ADA663000BE8399 /* SlotMachineAW */,
 				1DE0CEA11ADA663000BE8399 /* SlotMachineAWTests */,
+				1DE0CEB51ADA669500BE8399 /* SlotMachineAW WatchKit Extension */,
+				1DE0CEBF1ADA669500BE8399 /* SlotMachineAW WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +341,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE0CEB41ADA669500BE8399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE0CEC11ADA669500BE8399 /* SlotMachineAW WatchKit App.app in Resources */,
+				1DE0CEBD1ADA669500BE8399 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE0CEBE1ADA669500BE8399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE0CED61ADB0B3B00BE8399 /* Images.xcassets in Resources */,
+				1DE0CEC91ADA669500BE8399 /* Interface.storyboard in Resources */,
+				1DE0CECB1ADA669500BE8399 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +384,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DE0CEB21ADA669500BE8399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE0CEBB1ADA669500BE8399 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +399,16 @@
 			isa = PBXTargetDependency;
 			target = 1DE0CE891ADA663000BE8399 /* SlotMachineAW */;
 			targetProxy = 1DE0CEA31ADA663000BE8399 /* PBXContainerItemProxy */;
+		};
+		1DE0CEC31ADA669500BE8399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE0CEBF1ADA669500BE8399 /* SlotMachineAW WatchKit App */;
+			targetProxy = 1DE0CEC21ADA669500BE8399 /* PBXContainerItemProxy */;
+		};
+		1DE0CECD1ADA669500BE8399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE0CEB51ADA669500BE8399 /* SlotMachineAW WatchKit Extension */;
+			targetProxy = 1DE0CECC1ADA669500BE8399 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +427,14 @@
 				1DE0CE9C1ADA663000BE8399 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1DE0CEC71ADA669500BE8399 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE0CEC81ADA669500BE8399 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,9 +525,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SlotMachineAW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -354,9 +537,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SlotMachineAW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -394,6 +579,66 @@
 			};
 			name = Release;
 		};
+		1DE0CED01ADA669500BE8399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SlotMachineAW_WatchKit_Extension;
+				INFOPLIST_FILE = "SlotMachineAW WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1DE0CED11ADA669500BE8399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = SlotMachineAW_WatchKit_Extension;
+				INFOPLIST_FILE = "SlotMachineAW WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1DE0CED31ADA669500BE8399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SlotMachineAW WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DE0CED41ADA669500BE8399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "SlotMachineAW WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +658,7 @@
 				1DE0CEAE1ADA663000BE8399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DE0CEAF1ADA663000BE8399 /* Build configuration list for PBXNativeTarget "SlotMachineAWTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +667,25 @@
 				1DE0CEB11ADA663000BE8399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE0CECF1ADA669500BE8399 /* Build configuration list for PBXNativeTarget "SlotMachineAW WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE0CED01ADA669500BE8399 /* Debug */,
+				1DE0CED11ADA669500BE8399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE0CED21ADA669500BE8399 /* Build configuration list for PBXNativeTarget "SlotMachineAW WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE0CED31ADA669500BE8399 /* Debug */,
+				1DE0CED41ADA669500BE8399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
